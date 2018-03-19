@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: peachpuff;
+}
+
+#header {
+    font-size: 20px;
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+    
+    }
+
+#wrapper {
+    width:100%;
+     margin: auto;
+    display: flex;
+    height: 100vh;
+    flex-direction:row;
+    justify-content: center;
+    flex-flow: wrap;
+    
+
+  
+}
+#title {
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#form {
+      
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+#form button:hover {
+    background: black;
+    background-image: -webkit-linear-gradient(top, lightgray);
+    background-image: -moz-linear-gradient(top, lightgray);
+    background-image: -ms-linear-gradient(top, lightgray);
+    background-image: -o-linear-gradient(top, lightgray);
+    background-image: linear-gradient(top, lightgray);
+    text-decoration: none;
+  }
+#form button {
+    margin: 20px;
+    background: black;
+    background-image: -webkit-linear-gradient(top, lightgray);
+    background-image: -moz-linear-gradient(top, lightgray);
+    background-image: -ms-linear-gradient(top, lightgray);
+    background-image: -o-linear-gradient(top, lightgray);
+    background-image: linear-gradient(top, lightgray);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 11px 23px 10px 20px;
+    text-decoration: none;
+}
+
+
+
+#getMyHoroscope {
+
+    width: 100vw;
+    height: 60vh;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#trueOrFalse {
+    border: 3px solid black;
+    align-self: flex-start;
+    width: 20vw;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+        #getMyHoroscope img {
+            width: 60%;
+            height: 60%;
+            margin: auto;
+        }
+
+@media screen and (max-width: 600px) {
+
+   #getMyHoroscope {
+
+    order: -1;
+
+   }
+
+   #formDiv button {
+       margin: 10px;
+       width: 240px;
+   }
+  
+   input {
+       width: 100px;
+       border: 1px solid black;
+   }
+
+   #formDiv {
+       padding: 1px;
+   }
+   #trueOrFalse {
+       
+       width: 60vw;
+   }
+
+}
