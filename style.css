@@ -98,7 +98,7 @@ body {
 
    }
 
-   #formDiv button {
+   #form button {
        margin: 10px;
        width: 240px;
    }
@@ -108,7 +108,7 @@ body {
        border: 1px solid black;
    }
 
-   #formDiv {
+   #form {
        padding: 1px;
    }
    #trueOrFalse {
